@@ -1,0 +1,178 @@
+body{
+	background-color: black;
+/*	align-items: center; */
+}
+
+.heading1, .heading2, .heading3{
+	background-size: 100% 100%;
+	background-size: /*cover*/ contain;
+	min-width: 100%;
+	min-height: 100%;
+	/*width: auto;
+	height: auto;*/	
+	height: 1000px;
+	text-align: center;
+	background-repeat: no-repeat;
+	font: Garamond;
+
+	/*font: 400 100px/1.2 'Merienda One', Times Header, serif;
+	font-size: 500px;
+	color: rgba(0,0,0,0.7);
+	text-shadow: 3px 3px 3px #fff;*/
+
+	/*font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  	color: #fff;
+  	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
+
+/*Maintain aspect ratio: 
+https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+http://jsbin.com/neyepedoyu/edit?html,css,output
+https://www.youtube.com/watch?v=BoP2In1qJxc*/
+}
+.heading1{
+	background-image: url(https://media.gettyimages.com/photos/african-american-woman-raising-arms-at-sunset-picture-id638312014?s=612x612);
+/*	background-image: url(https://images.pexels.com/photos/415380/pexels-photo-415380.jpeg?auto=compress&cs=tinysrgb&h=350);
+*/	/*background: url(https://static-videos.pexels.com/assets/favicon-2ba0a9cd672c38bb97377db4ed19fb743d0c3c3d4a5db05585b1aaca913301db.ico);
+	*/
+	/*google: peaceful;*/
+}
+.heading2{
+	background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sa6549607c78f5c11/image/i4eeacaa2dbf12d6d/version/1490299332/most-beautiful-landscapes-in-europe-lofoten-european-best-destinations-copyright-iakov-kalinin.jpg);
+}
+.heading3{
+	background-image: url(https://ak1.picdn.net/shutterstock/videos/7275301/thumb/2.jpg);
+}
+.header{
+	text-align: center;
+	align-items: center;
+}
+
+.header p{
+	color: blue;
+	font-family:;
+	display: inline-block;
+	text-align: center;
+	width: 15%;
+	margin: auto;
+}
+
+img{
+	width: 70%; 
+	}
+
+div #flowers img{
+	/*width: 10%*/
+}
+
+#hands img{
+	align-items: baseline;
+	width: 90%;
+}
+
+div #topic{
+	align-content: center;
+}
+
+#topic h2{
+	color: blue;
+}
+
+.row{
+	text-align: center;
+}
+
+.container alert-primary{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 100;
+	font-family: berkshire swash;
+	
+}
+
+h2{
+	color: white;
+}
+p{
+	color: blue;
+}
+
+.col-6 ul{
+
+}
+
+div .footer{
+	background-color: #262d3a;
+/*	margin: 30 auto;
+	padding: 100 auto;*/
+}
+
+.footer h6{
+	color: black;
+}
+
+#logoflower img{
+	width: 100%;
+}
+
+div .content-line{
+	;
+}
+
+
+/*Project.html*/
+.tab{
+	text-indent:40px;
+/*	https://www.computerhope.com/issues/ch001034.htm*/
+}
+
+div .longflower{
+	height: 100%;
+}
+
+p{
+	color: white;
+}
+
+ul{
+	color: white;
+}
+#topic h3{
+	color: white;
+}
+#topic ul{
+	text-align: left;
+}
+#nonprofit1 h3,#nonprofit2 h3,#nonprofit3 h3,#nonprofit4 h3,#nonprofit5 h3,#nonprofit6 h3,#nonprofit7 h3,#nonprofit8 h3 {
+	color: #a3adff
+
+;
+}
+div #nonprofit1{
+	background-color: #0400ff;
+	border-top: 2px red  solid;
+}
+div #nonprofit2{
+	background-color: #0300db;
+}
+div #nonprofit3{
+	background-color: #0200b7;
+}
+div #nonprofit4{
+	background-color: #0503a3;
+}
+div #nonprofit5{
+	background-color: #03018e;
+}
+div #nonprofit6{
+	background-color: #030182;
+}
+div #nonprofit7{
+	background-color: #020063;
+}
+div #nonprofit8{
+	background-color: #01004f;
+}#180a96 
