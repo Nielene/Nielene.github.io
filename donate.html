@@ -43,20 +43,24 @@
 			<!-- <img src="http://www.macadamia-apps.com/demo-files/stillshot.demo1.step2.png"> -->
 		</div>
 	</div>
-
+	</div>
 
 	<br><br>
 
+<div>
+
 			<div class="footer" class="row">
-			<dir class="row">
+			<div class="row">
 			
-				<div class="col-3" id="logoflower">
-				<br>
+				<div class="col-3" class="ml-auto" id="logoflower">
+				<br><br>
 					<img src="https://www.xyzwallpaper.com/wp-content/uploads/2017/07/Ultramarine-Lotus-Flower-Silhouette-No-Background.png">
 					<!-- <img style="margin-top: 500px;" src="http://www.pngmart.com/files/6/Dahlia-Transparent-Background-1-372x279.png"> -->
+				<br><br>
+
 				</div>
 
-				<div class="col-2">
+				<div class="col-2" id="list">
 				<br>
 					<h6>Home</h6>
 					<h6>About</h6>
@@ -65,7 +69,7 @@
 					<h6><a href="#Talk to me">Contact us</a></h6>
 				</div>
 			
-				<div class="col-2">
+				<div class="col-2" id="list">
 				<br>
 					<h6>Blogs</h6>
 					<h6>Search</h6>
@@ -74,15 +78,38 @@
 					<h6>Community</h6>
 				</div>
 
-				<div class="col-4" class="mr-auto">
-				<br>
-				<img src="http://kolakube.com/wp-content/uploads/2012/01/optin_icons.png">
+				<div class="col-3" ><!-- class="mr-auto" -->
+					<br>
+					<!-- <img src="http://kolakube.com/wp-content/uploads/2012/01/optin_icons.png"> -->
+
+					<p></p><input id="enterName" type="text" placeholder="Enter your name"></p>
+					<p><input id="enterEmail" type="text" placeholder="Enter your email"></p>
+					<p><input type="button" value="Submit" onclick="Submit()"></p>
+					
+
+					<script>
+						function Submit(){
+							var enterName = document.getElementById("enterName").value;
+							var enterEmail = document.getElementById("enterEmail").value;
+							console.log(enterName);
+							console.log(enterEmail);
+
+							var thanks = document.getElementById("response").innerHTML = "Thank you.";
+						}
+					</script>
+				</div>
+
+				<div class="col-2" class="mr-auto">
+					<br><br>
+					<p id="response"></p>
 				</div>
 
 			</div>
-			</div>
+			
+			
+		</div>
+	</div>
 
-</div>
 </body>
 </html>
 

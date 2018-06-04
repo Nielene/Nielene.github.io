@@ -12,21 +12,26 @@
 
 <body>
 	
-	<div class="container-fluid">
-		
-		<div class="heading3" class="heading">
+		<div class="heading3" class="heading" class="headingProjects">
 			<!-- https://css-tricks.com/snippets/svg/curved-text-along-path/ -->
-			<svg viewBox="0 0 500 500">
+			
+			<!-- <svg viewBox="0 0 500 500">
     			<path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
     			<text width="100">
       				<textPath xlink:href="#curve">
-     				   Some of My Projects
+     				   Some ------ Projects
     			  	</textPath>
     			</text>
-  			</svg>
+  			</svg> -->
+
 			<!-- <h5>Projects</h5> -->
+		
+			<h1> Projects</h1>
+
 		</div>
 	
+	<div class="container-fluid">
+
 		<div class="header">
 			<p><a href="index.html">Home</a></p>
 			<p><a href="#My Projects">Content</a></p>
@@ -72,7 +77,7 @@
 					<li><a href="#nonprofit7">Doctors Without Borders</a></li>
 					<li><a href="#nonprofit8">Kiva</a></li>
 				</ul>
-				<p>For <a href="https://topnonprofits.com/lists/best-nonprofits-on-the-web/">more</a> worthy nonprofits, visit<a href="https://topnonprofits.com/lists/best-nonprofits-on-the-web/"> Top Nonprofits</a>.</p>
+				<p>For more worthy nonprofits, visit<a href="https://topnonprofits.com/lists/best-nonprofits-on-the-web/"> Top Nonprofits</a>.</p>
 			</div>
 
 			<div class="col-6" id="longflower">
@@ -81,16 +86,22 @@
 		</div>
 	</div>
 
-
 		<br><br>
-		<div class="container-fluid"> 
+		
+		<div > 
 			
 			<div id="nonprofit1" class="container-fluid">
 				<br>
+				<!-- <div class="col-1">
+					<img src="">
+				</div> -->
+				
+				<div><!--  class="col-11" -->
 				<h3>United Nations Children's Fund (UNICEF)</h3>
 				
 				<p>UNICEF works in 190 countries and territories to save children’s lives, to defend their rights, and to help them fulfil their potential. They never give up. UNICEF combines its experience and well-collected evidence and analysis to create programmes, campaigns and initiatives wherever they are needed most. Their regional offices help coordinate ongoing work and initiatives with the country offices.</p>
 				<p>Want to change the world? Work with UNICEF.</p>
+				</div>
 				<div class="row">
 					<h6 class="col-6 mr-auto"><a href="https://www.unicef.org/">Visit their website</a></h6>
 					<h6 class="col-6 ml-auto"><a href="#top">top</a></h6>
@@ -173,34 +184,36 @@
 				<p>Their mission is to alleviate poverty by connecting people through lending. They celebrate and support people looking to create a better future for themselves, their families and their communities. By lending as little as $25 on Kiva, anyone can help a borrower start or grow a business, go to school, access clean energy or realize their potential. For some, it’s a matter of survival, for others it’s the fuel for a life-long ambition.</p>
 				<p>100% of every dollar you lend on Kiva goes to funding loans. Kiva covers costs primarily through optional donations, as well as through support from grants and sponsors.
 				</p>
-				<div class="row">
+				<div class="row" id="kiva">
 					<h6 class="col-6"><a href="https://www.kiva.org/">Visit their website</a></h6>
 					<h6 class="col-6"><a href="#top">top</a></h6>
 				</div>
 			</div>
-			<br>
+			
 
-		<br><br>
+		<div>
 
 			<div class="footer" class="row">
-			<dir class="row">
+			<div class="row">
 			
-				<div class="col-3" id="logoflower">
-				<br>
+				<div class="col-3" class="ml-auto" id="logoflower">
+				<br><br>
 					<img src="https://www.xyzwallpaper.com/wp-content/uploads/2017/07/Ultramarine-Lotus-Flower-Silhouette-No-Background.png">
 					<!-- <img style="margin-top: 500px;" src="http://www.pngmart.com/files/6/Dahlia-Transparent-Background-1-372x279.png"> -->
+				<br><br>
+
 				</div>
 
-				<div class="col-2">
+				<div class="col-2" id="list">
 				<br>
 					<h6>Home</h6>
 					<h6>About</h6>
 					<h6>Features</h6>
 					<h6>Pricing</h6>
-					<h6><a href="Marvel.html" href="#Talk to me">Contact us</a></h6>
+					<h6><a href="#Talk to me">Contact us</a></h6>
 				</div>
 			
-				<div class="col-2">
+				<div class="col-2" id="list">
 				<br>
 					<h6>Blogs</h6>
 					<h6>Search</h6>
@@ -209,16 +222,39 @@
 					<h6>Community</h6>
 				</div>
 
-				<div class="col-4" class="mr-auto">
-				<br>
-				<img src="http://kolakube.com/wp-content/uploads/2012/01/optin_icons.png">
+				<div class="col-3" ><!-- class="mr-auto" -->
+					<br>
+					<!-- <img src="http://kolakube.com/wp-content/uploads/2012/01/optin_icons.png"> -->
+
+					<p></p><input id="enterName" type="text" placeholder="Enter your name"></p>
+					<p><input id="enterEmail" type="text" placeholder="Enter your email"></p>
+					<p><input type="button" value="Submit" onclick="Submit()"></p>
+					
+
+					<script>
+						function Submit(){
+							var enterName = document.getElementById("enterName").value;
+							var enterEmail = document.getElementById("enterEmail").value;
+							console.log(enterName);
+							console.log(enterEmail);
+
+							var thanks = document.getElementById("response").innerHTML = "Thank you.";
+						}
+					</script>
 				</div>
+
+				<div class="col-2" class="mr-auto">
+					<br><br>
+					<p id="response"></p>
+				</div>
+
+			</div>
 
 			</div>
 			
 		</div>
 
-	</div>
+	<!-- </div> -->
 
 </body>
 </html>

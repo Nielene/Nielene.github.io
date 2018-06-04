@@ -16,8 +16,6 @@ body{
 	/*font-family: garamond;
 	font-size: 40%;*/
 
-	
-
 	/*font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
   	color: #fff;
   	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); */
@@ -28,6 +26,8 @@ http://jsbin.com/neyepedoyu/edit?html,css,output
 https://www.youtube.com/watch?v=BoP2In1qJxc*/
 }
 
+
+
 .heading1 h1, .heading2 h1{
 	font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
 	font-size: 100px;
@@ -36,19 +36,26 @@ https://www.youtube.com/watch?v=BoP2In1qJxc*/
 	/*text-shadow: 3px 3px 3px #fff;*/
 }
 /*Projects*/
-		.heading3 path {
+.heading3 h1{
+	font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+	font-size: 100px;
+	color: rgba(0,0,0,0.7);
+	color: white;
+	opacity: 0.5;
+	}
+
+		/*.heading3 path {
 		  	fill: transparent;
 		}
 
 		.heading3 text {
-		  	fill: white;
+		  	fill: white;*/
 		  	/*outline: white;*/
-		  	font: 400 0px/1.2 'Merienda One', Helvetica, sans-serif;
+		  	/*font: 400 0px/1.2 'Merienda One', Helvetica, sans-serif;
 			font-size: 40px;
 			text-align: center;
 			height: 100px;
-		}
-
+		}*/
 
 /*.heading3 h5{
 	font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
@@ -144,13 +151,21 @@ div .footer{
 }
 
 #logoflower img{
-	width: 100%;
+	width: 75%;
+	/*padding-left: 30%;*/
+	align-content: center;
+
 }
 
 div .content-line{
 	;
 }
 #SupportMe h2{
+	color: blue;
+}
+
+
+.footer #list h6 {
 	color: blue;
 }
 
@@ -182,13 +197,13 @@ ul{
 	text-align: left;
 }
 #nonprofit1 h3,#nonprofit2 h3,#nonprofit3 h3,#nonprofit4 h3,#nonprofit5 h3,#nonprofit6 h3,#nonprofit7 h3,#nonprofit8 h3 {
-	color: #a3adff
-
-;
+	color: #a3adff;
 }
+
 div #nonprofit1{
-	background-color: #0400ff;
-	border-top: 2px red  solid;
+	background-color: #0502ed;
+	/*#0400ff;*/
+	border-top: 2px blue solid;
 }
 div #nonprofit2{
 	background-color: #0300db;
@@ -210,4 +225,9 @@ div #nonprofit7{
 }
 div #nonprofit8{
 	background-color: #01004f;
-}#180a96 
+}/*#180a96 */
+
+
+div #nonprofit8 #kiva{
+	padding-bottom: 50px;
+}
