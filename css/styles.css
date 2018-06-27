@@ -92,6 +92,12 @@ https://www.youtube.com/watch?v=BoP2In1qJxc*/
 	margin: auto;
 }
 
+.btn{
+	background-color: black;
+	color: blue;
+	font-size: 50px;
+}
+
 img{
 	width: 70%; 
 	}
