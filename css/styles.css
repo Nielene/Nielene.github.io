@@ -29,7 +29,8 @@ https://www.youtube.com/watch?v=BoP2In1qJxc*/
 
 
 .heading1 h1, .heading2 h1{
-	font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+	font: 400 100px/1.2;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 100px;
 	color: rgba(0,0,0,0.7);
 	color: white;
@@ -37,7 +38,8 @@ https://www.youtube.com/watch?v=BoP2In1qJxc*/
 }
 /*Projects*/
 .heading3 h1{
-	font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+	font: 400 100px/1.2;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 100px;
 	color: rgba(0,0,0,0.7);
 	color: white;
